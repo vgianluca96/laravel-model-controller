@@ -12,4 +12,9 @@ class PageController extends Controller
     {
         return view('home', ['movies' => Movie::all(), 'heading' => 'Movies Home']);
     }
+
+    public function about()
+    {
+        return view('about', ['heading' => 'Movies Home']);
+    }
 }
