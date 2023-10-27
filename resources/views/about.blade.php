@@ -1,26 +1,17 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('app')
 
-    <title>Laravel</title>
+@section('main-content')
 
-    <!-- Fonts -->
-    <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<main>
+    <div class="container">
+        <h1>
+            This is the about page
+        </h1>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur obcaecati perspiciatis libero, enim culpa aliquid tempore nam ex atque minus adipisci magnam sint! Nesciunt neque laudantium nisi nostrum repellat! Eius.
+        </p>
+    </div>
+</main>
 
-    <!-- Styles -->
-    @vite('resources/js/app.js')
-
-</head>
-
-<body>
-
-    <h1>
-        About
-    </h1>
-
-</body>
-
-</html>
+@endsection
