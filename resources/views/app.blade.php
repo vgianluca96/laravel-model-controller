@@ -18,6 +18,7 @@
 <body>
 
     <header>
+
         <nav class="navbar navbar-expand-lg bg-light p-4">
             <div class="container-fluid">
               <a class="navbar-brand" href="/"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
@@ -35,15 +36,21 @@
                     <a class="nav-link active" aria-current="page" href="/about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contacts</a>
+                    <a class="nav-link disabled" aria-current="page" href="#">Contacts</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
+          
     </header>
 
-    @yield('main-content')
+    <main class="py-4">
+
+        @yield('main-content')
+
+    </main>
+
     
     <footer>
 

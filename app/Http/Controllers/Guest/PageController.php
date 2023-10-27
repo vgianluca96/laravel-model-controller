@@ -10,11 +10,11 @@ class PageController extends Controller
 {
     public function index()
     {
-        return view('home', ['movies' => Movie::all(), 'heading' => 'Movies Home']);
+        return view('home', ['movies' => Movie::all(), 'heading' => 'This is the site Home']);
     }
 
     public function about()
     {
-        return view('about', ['heading' => 'Movies Home']);
+        return view('about', ['heading' => 'This is the About page']);
     }
 }
