@@ -15,6 +15,11 @@ class PageController extends Controller
 
     public function about()
     {
-        return view('about', ['heading' => 'This is the About page']);
+        return view('about', ['movies' => Movie::all(), 'heading' => 'This is the About page']);
+    }
+
+    public function padrino()
+    {
+        return view('il-padrino', ['movies' => Movie::all(), 'heading' => 'Il Padrino']);
     }
 }
