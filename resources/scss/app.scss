@@ -1,5 +1,14 @@
 @import '~bootstrap/scss/bootstrap';
 
+main {
+    min-height: 800px;
+}
+
+footer {
+    background-color: #1c1c1c;
+    height: 300px;
+}
+
 .il-padrino {
     background-image: url('https://dreamisland.it/wp-content/uploads/2023/01/tour-the-godfather-il-padrino.jpg');
     background-size: cover;

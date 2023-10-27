@@ -30,16 +30,4 @@
     </div>
 </div>
 
-@foreach ($movies as $movie)
-    <div class="py-4">
-        {{$movie['id']}} <br>
-        {{$movie['title']}} <br>
-        {{$movie['original_title']}} <br>
-        {{$movie['nationality']}} <br>
-        {{$movie['date']}} <br>
-        {{$movie['vote']}} <br>
-    </div>
-        
-@endforeach
-
 @endsection
